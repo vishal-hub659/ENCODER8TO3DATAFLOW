@@ -34,23 +34,31 @@ Logical circuit of the above expressions is given below:
 
 Figure 02  Encoder 8 * 3
 
-**Procedure**
 
 /* write all the steps invloved */
 
 **PROGRAM**
-
+module unit24(din,a,b,c);
+input [0:7] din;
+output a,b,c;
+assign a=(din[4]| din[5]| din[6]| din[7]);
+assign b=(din[2]| din[3]| din[6]| din[7]);
+assign c=(din[1]| din[3]| din[5]| din[7]);
+endmodule
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:vishal s
+RegisterNumber:24008833
 */
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+![Screenshot 2024-11-28 184311](https://github.com/user-attachments/assets/beb8e72b-b884-4da2-95b6-b8209bad643e)
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+![Screenshot 2024-11-28 185702](https://github.com/user-attachments/assets/2654af3e-3642-4fe4-8cda-ea34b1a4c77b)
 
 **RESULTS**
-
+Thus Encoder 8 to 3 designed and truthtable is verified.
 
 
 
