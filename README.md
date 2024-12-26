@@ -36,7 +36,7 @@ Figure 02  Encoder 8 * 3
 
 
 /* write all the steps invloved */
-
+~~~
 **PROGRAM**
 module unit24(din,a,b,c);
 input [0:7] din;
@@ -50,7 +50,7 @@ endmodule
 Developed by:vishal s
 RegisterNumber:24008833
 */
-
+~~~
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 ![Screenshot 2024-11-28 184311](https://github.com/user-attachments/assets/beb8e72b-b884-4da2-95b6-b8209bad643e)
 
